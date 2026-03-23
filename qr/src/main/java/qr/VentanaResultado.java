@@ -22,7 +22,7 @@ public class VentanaResultado extends JFrame {
     public VentanaResultado(String fichero) {
         // Título del frame
         this.setTitle(fichero);
-        // No se redimensiona
+        // No se redimensionazz
         this.setResizable(false);
         // Objeto dimension para guardar información del tamaño de la pantalla
         Dimension tamanioPantalla = Toolkit.getDefaultToolkit().getScreenSize();
